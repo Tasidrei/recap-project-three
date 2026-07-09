@@ -31,7 +31,7 @@ console.clear();
 
 //fetchCharacters();
 
-
+// async function fetchCharacters() {
 console.clear();
 
 async function fetchCharacters() {
