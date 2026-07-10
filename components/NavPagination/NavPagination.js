@@ -1,15 +1,7 @@
-export function setupPagination(nextButton, prevButton, fetchCharacters, page, maxPage) {
-  nextButton.addEventListener("click", () => {
-    if (page < maxPage) {
-      page++;
-      fetchCharacters();
-    }
-  });
-
-  prevButton.addEventListener("click", () => {
-    if (page > 1) {
-      page--;
-      fetchCharacters();
-    }
-  });
+export function NavPagination() {
+  const span = document.createElement("span");
+  span.classList.add("navigation__pagination");
+  span.setAttribute("data-js", "pagination");
+  span.textContent = "1 / 1";
+  return span;
 }
