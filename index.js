@@ -2,9 +2,6 @@ import { SearchBar } from "./components/SearchBar/SearchBar.js";
 import { NavButton } from "./components/NavButton/NavButton.js";
 import { NavPagination } from "./components/NavPagination/NavPagination.js";
 
-
-
-
 let page = 1;
 let maxPage = 1; // must be let, not const
 import { createCharacterCard } from "./components/CharacterCard/CharacterCard.js";
